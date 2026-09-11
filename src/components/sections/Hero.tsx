@@ -30,7 +30,7 @@ export default function Hero() {
         >
           <h1 className="text-obsidian-white text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none mb-6">
             Concept <br />
-            <span className="text-transparent stroke-text">Fitness</span>
+            <span className="text-[#C0FF00]">Fitness</span>
           </h1>
 
           <motion.p
@@ -49,7 +49,7 @@ export default function Hero() {
           >
             <a
               href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
-              className="px-8 py-4 bg-obsidian-white text-obsidian-deep font-bold uppercase tracking-widest hover:bg-obsidian-silver transition-colors duration-300 inline-block"
+              className="px-8 py-4 bg-obsidian-white text-obsidian-deep font-bold uppercase tracking-widest hover:bg-obsidian-silver transition-colors duration-300 inline-block rounded-full"
             >
               Comece Sua Evolução
             </a>

@@ -30,13 +30,19 @@ export default function Experience() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="order-1 md:order-2 relative aspect-[4/3] group overflow-hidden border border-obsidian-carbon"
           >
-            <Image
-              src="/images/exterior.png"
-              alt="Fachada Concept Fitness"
-              fill
-              className="object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
+            <motion.div
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+              className="w-full h-full"
+            >
+              <Image
+                src="/images/exterior.png"
+                alt="Fachada Concept Fitness"
+                fill
+                className="object-cover transition-all duration-500 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </motion.div>
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep/60 to-transparent opacity-40" />
           </motion.div>
         </div>
@@ -49,13 +55,19 @@ export default function Experience() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative aspect-[4/3] group overflow-hidden border border-obsidian-carbon"
           >
-            <Image
-              src="/images/recepcao.png"
-              alt="Recepção Concept Fitness"
-              fill
-              className="object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
+            <motion.div
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+              className="w-full h-full"
+            >
+              <Image
+                src="/images/recepcao.png"
+                alt="Recepção Concept Fitness"
+                fill
+                className="object-cover transition-all duration-500 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </motion.div>
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep/60 to-transparent opacity-40" />
           </motion.div>
           <motion.div

@@ -28,7 +28,7 @@ export default function Results() {
           {/* After Image */}
           <div className="absolute inset-0">
             <img
-              src="/images/result-transformation.jpg"
+              src="/images/results.jpg"
               alt="After"
               className="w-[200%] h-full object-cover object-right"
             />
@@ -40,7 +40,7 @@ export default function Results() {
             style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
           >
             <img
-              src="/images/result-transformation.jpg"
+              src="/images/results.jpg"
               alt="Before"
               className="w-[200%] h-full object-cover object-left"
             />

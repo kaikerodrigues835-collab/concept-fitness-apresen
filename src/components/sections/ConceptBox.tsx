@@ -26,7 +26,7 @@ export default function ConceptBox() {
             </p>
             <a
               href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
-              className="px-8 py-4 bg-obsidian-deep text-obsidian-white font-bold uppercase tracking-widest hover:bg-obsidian-carbon transition-colors duration-300 inline-block"
+              className="px-8 py-4 bg-obsidian-deep text-obsidian-white font-bold uppercase tracking-widest hover:bg-obsidian-carbon transition-colors duration-300 inline-block rounded-full"
             >
               Entre para o Box
             </a>
@@ -39,11 +39,17 @@ export default function ConceptBox() {
             className="relative aspect-square group"
           >
             <div className="absolute inset-0 bg-obsidian-deep rotate-3 group-hover:rotate-0 transition-transform duration-500" />
-            <img
-              src="/images/concept-box.png"
-              alt="Concept Box"
-              className="relative z-10 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-            />
+            <motion.div
+              animate={{ scale: [1, 1.05, 1] }}
+              transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+              className="relative z-10 w-full h-full overflow-hidden"
+            >
+              <img
+                src="/images/concept-box.png"
+                alt="Concept Box"
+                className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+              />
+            </motion.div>
             <div className="absolute -bottom-6 -left-6 bg-obsidian-deep text-obsidian-white p-6 z-20">
               <p className="text-xs tracking-widest uppercase font-bold">Alta Intensidade</p>
               <p className="text-2xl font-black">PERFORMANCE MÁXIMA</p>

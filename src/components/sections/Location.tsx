@@ -55,17 +55,22 @@ export default function Location() {
         >
           {/* Real Google Maps Embed */}
           <div className="absolute inset-0 border border-obsidian-silver overflow-hidden group">
-            <iframe
-              src="https://maps.google.com/maps?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              className="w-full h-full grayscale invert opacity-80 group-hover:grayscale-0 group-hover:invert-0 group-hover:opacity-100 transition-all duration-500"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
+            <a
+              href="https://maps.app.goo.gl/aDxsevwjgn4xu71y7"
+              target="_blank"
+              className="block w-full h-full"
+            >
+              <iframe
+                src="https://maps.google.com/maps?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                className="w-full h-full grayscale invert opacity-80 group-hover:grayscale-0 group-hover:invert-0 group-hover:opacity-100 transition-all duration-500"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
+            </a>
           </div>
-          <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-obsidian-deep border border-obsidian-silver p-4 z-10 shadow-2xl">
-            <p className="text-obsidian-white text-[10px] uppercase tracking-tighter font-bold">Nerópolis, GO</p>
-            <p className="text-obsidian-silver text-[8px] uppercase">Setor Botânico</p>
+          <div className="absolute -bottom-4 -right-4 w-48 h-48 bg-obsidian-deep border border-obsidian-silver p-2 z-10 shadow-2xl overflow-hidden">
+            <img src="/images/exterior.png" alt="Exterior Concept Fitness" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
           </div>
         </motion.div>
       </div>

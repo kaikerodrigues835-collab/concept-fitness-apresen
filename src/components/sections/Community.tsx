@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 
-const PEOPLE = [
-  { name: "Marcos Silva", role: "Atleta de Elite", img: "/images/community-1.png" },
-  { name: "Ana Costa", role: "Coach de Performance", img: "/images/community-2.png" },
-  { name: "Juliana Lima", role: "Membro Dedicado", img: "/images/community-3.png" },
-  { name: "Roberto Dias", role: "Especialista em Força", img: "/images/community-4.png" },
+const SPACES = [
+  { name: "Recepção", role: "Acolhimento", img: "/images/recepcao.png" },
+  { name: "Parte Externa", role: "Arquitetura", img: "/images/exterior.png" },
+  { name: "Área Interna", role: "Performance", img: "/images/interna.png" },
+  { name: "Vista Interna", role: "Experiência", img: "/images/vista-interna.png" },
 ];
 
 export default function Community() {
@@ -14,7 +14,7 @@ export default function Community() {
     <section className="py-32 bg-obsidian-deep px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20 text-center">
-          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">03 / A Tribo</h3>
+          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">03 / A Estrutura</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter">
             Conexão <br />
             <span className="text-transparent stroke-text">Autêntica</span>
@@ -22,22 +22,28 @@ export default function Community() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {PEOPLE.map((person, idx) => (
+          {SPACES.map((space, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="relative aspect-[3/4] overflow-hidden group"
+              className="relative aspect-[3/4] overflow-hidden group cursor-pointer"
             >
-              <img
-                src={person.img}
-                alt={person.name}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-              />
+              <motion.div
+                animate={{ scale: [1, 1.05, 1] }}
+                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: idx * 0.5 }}
+                className="w-full h-full"
+              >
+                <img
+                  src={space.img}
+                  alt={space.name}
+                  className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                />
+              </motion.div>
               <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
-                <p className="text-obsidian-white font-bold uppercase tracking-tighter">{person.name}</p>
-                <p className="text-obsidian-silver text-xs uppercase tracking-widest">{person.role}</p>
+                <p className="text-obsidian-white font-bold uppercase tracking-tighter">{space.name}</p>
+                <p className="text-obsidian-silver text-xs uppercase tracking-widest">{space.role}</p>
               </div>
             </motion.div>
           ))}

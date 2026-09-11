@@ -15,7 +15,6 @@ import Conversion from "@/components/sections/Conversion";
 import Location from "@/components/sections/Location";
 import Outro from "@/components/sections/Outro";
 import Footer from "@/components/shared/Footer";
-import Header from "@/components/shared/Header";
 
 export default function Home() {
   const [isEntranceComplete, setIsEntranceComplete] = useState(false);
@@ -28,7 +27,6 @@ export default function Home() {
 
       {isEntranceComplete && (
         <>
-          <Header />
           <section id="hero"><Hero /></section>
           <section id="espaco">
             <Philosophy />

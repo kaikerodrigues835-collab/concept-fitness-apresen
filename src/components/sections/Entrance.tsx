@@ -37,7 +37,7 @@ export default function Entrance({ onComplete }: { onComplete: () => void }) {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-obsidian-white text-4xl md:text-6xl font-bold tracking-tighter uppercase"
         >
-          Concept Fitness
+          Concept <span className="text-[#C0FF00]">Fitness</span>
         </motion.h1>
 
         <motion.p
