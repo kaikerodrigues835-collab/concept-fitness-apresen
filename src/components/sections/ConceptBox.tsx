@@ -15,7 +15,7 @@ export default function ConceptBox() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="text-obsidian-deep text-xs tracking-[0.4em] uppercase mb-4 font-bold">The Peak Experience</h3>
+            <h3 className="text-obsidian-deep text-xs tracking-[0.4em] uppercase mb-4 font-bold">A Experiência do Ápice</h3>
             <h2 className="text-obsidian-deep text-6xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-8">
               CONCEPT<br />BOX
             </h2>
@@ -25,10 +25,10 @@ export default function ConceptBox() {
               Movimento constante, energia máxima e resultados exponenciais.
             </p>
             <a
-              href="https://wa.me/5562982396113"
+              href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
               className="px-8 py-4 bg-obsidian-deep text-obsidian-white font-bold uppercase tracking-widest hover:bg-obsidian-carbon transition-colors duration-300 inline-block"
             >
-              Join the Box
+              Entre para o Box
             </a>
           </motion.div>
 
@@ -40,13 +40,13 @@ export default function ConceptBox() {
           >
             <div className="absolute inset-0 bg-obsidian-deep rotate-3 group-hover:rotate-0 transition-transform duration-500" />
             <img
-              src="/concept-box.jpg"
+              src="/images/concept-box.png"
               alt="Concept Box"
               className="relative z-10 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
             />
             <div className="absolute -bottom-6 -left-6 bg-obsidian-deep text-obsidian-white p-6 z-20">
-              <p className="text-xs tracking-widest uppercase font-bold">High Intensity</p>
-              <p className="text-2xl font-black">MAX PERFORMANCE</p>
+              <p className="text-xs tracking-widest uppercase font-bold">Alta Intensidade</p>
+              <p className="text-2xl font-black">PERFORMANCE MÁXIMA</p>
             </div>
           </motion.div>
         </div>

@@ -29,8 +29,8 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         >
           <h1 className="text-obsidian-white text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none mb-6">
-            The <br />
-            <span className="text-transparent stroke-text">Concept</span>
+            O <br />
+            <span className="text-transparent stroke-text">Conceito</span>
           </h1>
 
           <motion.p
@@ -39,7 +39,7 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 1 }}
             className="text-obsidian-silver text-lg md:text-xl tracking-widest uppercase mb-10 max-w-2xl mx-auto font-light"
           >
-            Beyond Training. A High-Performance Lifestyle Experience.
+            Além do Treino. Uma Experiência de Estilo de Vida de Alta Performance.
           </motion.p>
 
           <motion.div
@@ -48,10 +48,10 @@ export default function Hero() {
             transition={{ delay: 1.2, duration: 0.8 }}
           >
             <a
-              href="https://wa.me/5562982396113"
+              href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
               className="px-8 py-4 bg-obsidian-white text-obsidian-deep font-bold uppercase tracking-widest hover:bg-obsidian-silver transition-colors duration-300 inline-block"
             >
-              Start Your Evolution
+              Comece Sua Evolução
             </a>
           </motion.div>
         </motion.div>
@@ -64,7 +64,7 @@ export default function Hero() {
         transition={{ delay: 2, duration: 1 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-obsidian-silver text-[10px] uppercase tracking-widest">Scroll to Explore</span>
+        <span className="text-obsidian-silver text-[10px] uppercase tracking-widest">Role para Explorar</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-obsidian-white to-transparent" />
       </motion.div>
 

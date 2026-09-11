@@ -16,10 +16,10 @@ export default function Results() {
     <section className="py-32 bg-obsidian-carbon px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20 text-center">
-          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">04 / Evolution</h3>
+          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">04 / Evolução</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter">
-            Real <br />
-            <span className="text-transparent stroke-text">Results</span>
+            Resultados <br />
+            <span className="text-transparent stroke-text">Reais</span>
           </h2>
         </div>
 
@@ -29,7 +29,7 @@ export default function Results() {
           {/* After Image */}
           <div className="absolute inset-0">
             <img
-              src="/result-after.jpg"
+              src="/images/result-after.webp"
               alt="After"
               className="w-full h-full object-cover"
             />
@@ -41,7 +41,7 @@ export default function Results() {
             style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
           >
             <img
-              src="/result-before.jpg"
+              src="/images/result-before.webp"
               alt="Before"
               className="w-full h-full object-cover"
             />
@@ -59,7 +59,7 @@ export default function Results() {
         </div>
 
         <p className="text-center text-obsidian-silver mt-10 text-sm uppercase tracking-widest italic">
-          Slide to witness the transformation
+          Deslize para testemunhar a transformação
         </p>
       </div>
 

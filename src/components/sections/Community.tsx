@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const PEOPLE = [
-  { name: "Marcos Silva", role: "Elite Athlete", img: "/person-1.jpg" },
-  { name: "Ana Costa", role: "Performance Coach", img: "/person-2.jpg" },
-  { name: "Juliana Lima", role: "Dedicated Member", img: "/person-3.jpg" },
-  { name: "Roberto Dias", role: "Strength Specialist", img: "/person-4.jpg" },
+  { name: "Marcos Silva", role: "Atleta de Elite", img: "/images/community-1.png" },
+  { name: "Ana Costa", role: "Coach de Performance", img: "/images/community-2.png" },
+  { name: "Juliana Lima", role: "Membro Dedicado", img: "/images/community-3.png" },
+  { name: "Roberto Dias", role: "Especialista em Força", img: "/images/community-4.png" },
 ];
 
 export default function Community() {
@@ -14,10 +14,10 @@ export default function Community() {
     <section className="py-32 bg-obsidian-deep px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20 text-center">
-          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">03 / The Tribe</h3>
+          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">03 / A Tribo</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter">
-            Authentic <br />
-            <span className="text-transparent stroke-text">Connection</span>
+            Conexão <br />
+            <span className="text-transparent stroke-text">Autêntica</span>
           </h2>
         </div>
 

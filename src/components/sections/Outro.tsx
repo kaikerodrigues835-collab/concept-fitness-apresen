@@ -12,14 +12,14 @@ export default function Outro() {
         className="text-center z-10"
       >
         <h2 className="text-obsidian-white text-6xl md:text-9xl font-black uppercase tracking-tighter leading-none mb-10">
-          Stay <br />
-          <span className="text-transparent stroke-text">Hungry</span>
+          Mantenha a <br />
+          <span className="text-transparent stroke-text">Fome</span>
         </h2>
         <a
           href="https://wa.me/5562982396113"
           className="px-10 py-5 bg-obsidian-white text-obsidian-deep font-bold uppercase tracking-widest hover:bg-obsidian-silver transition-all duration-300"
         >
-          Begin Now
+          Comece Agora
         </a>
       </motion.div>
 

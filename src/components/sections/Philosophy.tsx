@@ -27,8 +27,8 @@ export default function Philosophy() {
           style={{ color: textColor }}
           className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-none"
         >
-          We don't build bodies. <br />
-          <span className="block mt-4">We forge legacies.</span>
+          Nós não construímos corpos. <br />
+          <span className="block mt-4">Nós forjamos legados.</span>
         </motion.h2>
 
         <motion.p
@@ -37,7 +37,7 @@ export default function Philosophy() {
           transition={{ delay: 0.5, duration: 1 }}
           className="text-obsidian-silver text-sm md:text-lg tracking-widest uppercase mt-12 font-light"
         >
-          Performance is not a goal. It is a standard.
+          Performance não é meta. É padrão.
         </motion.p>
       </div>
     </section>

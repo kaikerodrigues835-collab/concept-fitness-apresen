@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 const MODALITIES = [
-  { id: "01", name: "MUSCULAÇÃO", desc: "Treinamento de força com precisão e técnica.", img: "/mod-1.jpg" },
-  { id: "02", name: "FUNCIONAL", desc: "Movimento, agilidade e performance real.", img: "/mod-2.jpg" },
-  { id: "03", name: "CONCEPTBOX", desc: "A experiência máxima de intensidade.", img: "/mod-3.jpg" },
-  { id: "04", name: "AERÓBICA", desc: "Resistência e saúde em alto nível.", img: "/mod-4.jpg" },
+  { id: "01", name: "MUSCULAÇÃO", desc: "Treinamento de força com precisão e técnica.", img: "/images/mod-musculacao.png" },
+  { id: "02", name: "FUNCIONAL", desc: "Movimento, agilidade e performance real.", img: "/images/mod-funcional.png" },
+  { id: "03", name: "CONCEPTBOX", desc: "A experiência máxima de intensidade.", img: "/images/mod-box.png" },
+  { id: "04", name: "AERÓBICA", desc: "Resistência e saúde em alto nível.", img: "/images/mod-aerobica.png" },
 ];
 
 export default function Modalities() {
@@ -17,10 +17,10 @@ export default function Modalities() {
     <section className="py-32 bg-obsidian-deep px-4 md:px-10 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20">
-          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">02 / The Method</h3>
+          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">02 / O Método</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter">
-            Our <br />
-            <span className="text-transparent stroke-text">Modalities</span>
+            Nossas <br />
+            <span className="text-transparent stroke-text">Modalidades</span>
           </h2>
         </div>
 

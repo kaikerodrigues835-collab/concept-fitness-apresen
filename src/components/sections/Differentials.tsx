@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const DIFFS = [
-  { title: "Infrastructure", desc: "State-of-the-art equipment and climate control." },
-  { title: "Methodology", desc: "Science-based training for maximum performance." },
-  { title: "Environment", desc: "A space designed for focus and strength." },
-  { title: "Exclusivity", desc: "A community of those who demand more." },
+  { title: "Infraestrutura", desc: "Equipamentos de última geração e climatização total." },
+  { title: "Metodologia", desc: "Treinamento baseado em ciência para performance máxima." },
+  { title: "Ambiente", desc: "Um espaço projetado para foco absoluto e força." },
+  { title: "Exclusividade", desc: "Uma comunidade para quem exige mais de si mesmo." },
 ];
 
 export default function Differentials() {
@@ -14,9 +14,9 @@ export default function Differentials() {
     <section className="py-32 bg-obsidian-deep px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20">
-          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">05 / The Edge</h3>
+          <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">05 / O Diferencial</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter">
-            Why <br />
+            Por que <br />
             <span className="text-transparent stroke-text">Concept?</span>
           </h2>
         </div>
