@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --obsidian-deep: #050505;
+  --obsidian-carbon: #1A1A1A;
+  --obsidian-white: #FFFFFF;
+  --obsidian-silver: #A1A1A1;
+}
+
+@theme inline {
+  --color-obsidian-deep: var(--obsidian-deep);
+  --color-obsidian-carbon: var(--obsidian-carbon);
+  --color-obsidian-white: var(--obsidian-white);
+  --color-obsidian-silver: var(--obsidian-silver);
+}
+
+body {
+  background: var(--obsidian-deep);
+  color: var(--obsidian-white);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Grain Texture Overlay */
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.05;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+}
+
