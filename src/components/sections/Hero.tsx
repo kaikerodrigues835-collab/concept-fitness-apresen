@@ -29,8 +29,8 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         >
           <h1 className="text-obsidian-white text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none mb-6">
-            O <br />
-            <span className="text-transparent stroke-text">Conceito</span>
+            Concept <br />
+            <span className="text-transparent stroke-text">Fitness</span>
           </h1>
 
           <motion.p

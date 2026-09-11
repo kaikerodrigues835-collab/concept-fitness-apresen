@@ -3,9 +3,11 @@ export default function Footer() {
     <footer className="bg-obsidian-deep py-20 px-4 md:px-10 border-t border-obsidian-carbon">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
         <div className="max-w-xs">
-          <h2 className="text-obsidian-white text-2xl font-black uppercase tracking-tighter mb-4">
-            Concept Fitness
-          </h2>
+          <img
+            src="/images/logo.jpg"
+            alt="Concept Fitness Logo"
+            className="w-32 h-auto mb-6 grayscale brightness-200"
+          />
           <p className="text-obsidian-silver text-sm font-light leading-relaxed">
             Nerópolis — GO <br />
             Rua Saturnino José Araújo, nº 250 <br />
@@ -18,13 +20,23 @@ export default function Footer() {
             <h4 className="text-obsidian-white uppercase text-xs tracking-widest mb-6 font-bold">Conecte-se</h4>
             <ul className="text-obsidian-silver text-sm space-y-4 font-light">
               <li>
-                <a href="https://www.instagram.com/conceptfitness__/" target="_blank" className="group flex items-center gap-2 hover:text-white transition-colors">
-                  <span className="text-[10px] uppercase tracking-tighter opacity-60 group-hover:opacity-100">Veja mais da Concept →</span>
-                  <span className="font-medium">Instagram</span>
+                <a href="https://www.instagram.com/conceptfitness__/" target="_blank" className="group flex flex-col gap-1 hover:text-white transition-colors">
+                  <span className="flex items-center gap-2 font-medium">
+                    <span className="text-[10px] uppercase tracking-widest opacity-60 group-hover:opacity-100">Siga-nos no</span>
+                    <span>Instagram</span>
+                  </span>
+                  <span className="text-xs opacity-50 group-hover:opacity-100 transition-opacity">@conceptfitness__</span>
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental." target="_blank" className="hover:text-white transition-colors">WhatsApp</a></li>
+                <a href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20minha%20aula." target="_blank" className="group flex flex-col gap-1 hover:text-white transition-colors">
+                  <span className="flex items-center gap-2 font-medium">
+                    <span className="text-[10px] uppercase tracking-widest opacity-60 group-hover:opacity-100">Fale Conosco via</span>
+                    <span>WhatsApp</span>
+                  </span>
+                  <span className="text-xs opacity-50 group-hover:opacity-100 transition-opacity">Agende sua aula experimental</span>
+                </a>
+              </li>
             </ul>
           </div>
           <div>

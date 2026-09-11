@@ -29,9 +29,9 @@ export default function Results() {
           {/* After Image */}
           <div className="absolute inset-0">
             <img
-              src="/images/result-after.webp"
+              src="/images/result-transformation.jpg"
               alt="After"
-              className="w-full h-full object-cover"
+              className="w-[200%] h-full object-cover object-right"
             />
           </div>
 
@@ -41,9 +41,9 @@ export default function Results() {
             style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
           >
             <img
-              src="/images/result-before.webp"
+              src="/images/result-transformation.jpg"
               alt="Before"
-              className="w-full h-full object-cover"
+              className="w-[200%] h-full object-cover object-left"
             />
           </div>
 

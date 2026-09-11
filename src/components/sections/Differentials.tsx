@@ -17,7 +17,7 @@ export default function Differentials() {
           <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">05 / O Diferencial</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter">
             Por que <br />
-            <span className="text-transparent stroke-text">Concept?</span>
+            <span className="text-transparent stroke-text">Concept Fitness?</span>
           </h2>
         </div>
 
