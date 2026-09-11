@@ -34,7 +34,7 @@ export default function Editorial() {
               src={IMAGES[0].src}
               alt={IMAGES[0].title}
               fill
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+              className="object-cover transition-all duration-700 group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 66vw"
             />
             <div className="absolute bottom-0 left-0 p-8 text-white">
@@ -54,7 +54,7 @@ export default function Editorial() {
               src={IMAGES[1].src}
               alt={IMAGES[1].title}
               fill
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              className="object-cover transition-all duration-700 group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
             <div className="absolute inset-0 bg-obsidian-deep/40 group-hover:bg-transparent transition-colors duration-500" />
@@ -74,7 +74,7 @@ export default function Editorial() {
               src={IMAGES[2].src}
               alt={IMAGES[2].title}
               fill
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              className="object-cover transition-all duration-700 group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
             <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -92,7 +92,7 @@ export default function Editorial() {
               src={IMAGES[3].src}
               alt={IMAGES[3].title}
               fill
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              className="object-cover transition-all duration-700 group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 66vw"
             />
             <div className="absolute bottom-0 left-0 p-8 text-white">

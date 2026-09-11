@@ -54,7 +54,7 @@ export default function Modalities() {
             <motion.div
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 0.3 }}
-              className="w-1/2 h-1/2 relative overflow-hidden grayscale"
+              className="w-1/2 h-1/2 relative overflow-hidden"
             >
               <img
                 src={MODALITIES.find(m => m.id === hovered)?.img}

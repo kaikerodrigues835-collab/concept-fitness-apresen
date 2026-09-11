@@ -31,7 +31,7 @@ export default function Outro() {
       </motion.div>
 
       {/* Background Visual */}
-      <div className="absolute inset-0 opacity-20 grayscale">
+      <div className="absolute inset-0 opacity-20">
         <img src="/outro-bg.jpg" alt="background" className="w-full h-full object-cover" />
       </div>
 

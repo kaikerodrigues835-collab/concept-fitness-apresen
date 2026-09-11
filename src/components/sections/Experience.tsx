@@ -39,7 +39,7 @@ export default function Experience() {
                 src="/images/exterior.png"
                 alt="Fachada Concept Fitness"
                 fill
-                className="object-cover object-top transition-all duration-500 group-hover:scale-110"
+                className="object-cover object-bottom transition-all duration-500 group-hover:scale-110"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </motion.div>
