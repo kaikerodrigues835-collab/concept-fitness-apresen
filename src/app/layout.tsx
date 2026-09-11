@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScroll from "@/components/shared/SmoothScroll";
 import LogoScroll from "@/components/shared/LogoScroll";
+import WhatsAppButton from "@/components/shared/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Concept Fitness | Academia em Nerópolis - GO",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full flex flex-col relative">
         <div className="grain-overlay" />
         <LogoScroll />
+        <WhatsAppButton />
         <SmoothScroll>
           {children}
         </SmoothScroll>

@@ -25,7 +25,7 @@ export default function Results() {
         <div className="relative w-full max-w-4xl mx-auto aspect-video overflow-hidden cursor-ew-resize"
              onMouseMove={handleMove}>
 
-          {/* After Image */}
+          {/* After Image (Right side) */}
           <div className="absolute inset-0">
             <img
               src="/images/results.jpg"
@@ -34,10 +34,10 @@ export default function Results() {
             />
           </div>
 
-          {/* Before Image (Clipped) */}
+          {/* Before Image (Left side - Clipped) */}
           <div
             className="absolute inset-0 overflow-hidden"
-            style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
+            style={{ clipPath: `inset(0 ${sliderPos}% 0 0)` }}
           >
             <img
               src="/images/results.jpg"

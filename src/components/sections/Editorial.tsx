@@ -34,7 +34,7 @@ export default function Editorial() {
               src={IMAGES[0].src}
               alt={IMAGES[0].title}
               fill
-              className="object-cover transition-all duration-700 group-hover:scale-110"
+              className="object-cover object-bottom transition-all duration-700 group-hover:scale-110"
               sizes="(max-width: 768px) 100vw, 66vw"
             />
             <div className="absolute bottom-0 left-0 p-8 text-white">

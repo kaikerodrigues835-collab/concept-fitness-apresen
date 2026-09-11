@@ -14,7 +14,7 @@ export default function Location() {
           <h3 className="text-obsidian-silver text-xs tracking-[0.4em] uppercase mb-4">06 / Localização</h3>
           <h2 className="text-obsidian-white text-5xl md:text-7xl font-bold uppercase tracking-tighter mb-8">
             Concept <br />
-            <span className="text-transparent stroke-text">Fitness</span>
+            <span className="text-[#C0FF00]">Fitness</span>
           </h2>
           <div className="space-y-6 text-obsidian-silver font-light">
             <p className="text-2xl">Rua Saturnino José Araújo, nº 250<br />Botafogo, Nerópolis — GO</p>
@@ -70,7 +70,7 @@ export default function Location() {
             </a>
           </div>
           <div className="absolute -bottom-4 -right-4 w-48 h-48 bg-obsidian-deep border border-obsidian-silver p-2 z-10 shadow-2xl overflow-hidden">
-            <img src="/images/exterior.png" alt="Exterior Concept Fitness" className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110" />
+            <img src="/images/exterior.png" alt="Exterior Concept Fitness" className="w-full h-full object-cover object-bottom transition-all duration-500 group-hover:scale-110" />
           </div>
         </motion.div>
       </div>
