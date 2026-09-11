@@ -1,12 +1,11 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function Results() {
   const [sliderPos, setSliderPos] = useState(50);
 
-  const handleMove = (e: any) => {
+  const handleMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * 100;
     setSliderPos(Math.max(0, Math.min(100, x)));

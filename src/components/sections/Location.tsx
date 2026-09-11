@@ -25,7 +25,7 @@ export default function Location() {
                 className="flex items-center gap-3 px-6 py-4 bg-obsidian-white text-obsidian-deep uppercase text-xs tracking-widest hover:bg-obsidian-silver transition-all duration-300 group font-bold"
               >
                 <span className="opacity-100 group-hover:opacity-80 transition-opacity">Como Chegar</span>
-                <span className="text-lg">→</</span>
+                <span className="text-lg">{"→"}</span>
               </a>
               <a
                 href="https://waze.com/ul?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO"
@@ -33,7 +33,7 @@ export default function Location() {
                 className="flex items-center gap-3 px-6 py-4 border border-obsidian-silver text-obsidian-white uppercase text-xs tracking-widest hover:bg-obsidian-white hover:text-obsidian-deep transition-all duration-300 group"
               >
                 <span className="opacity-60 group-hover:opacity-100 transition-opacity">Waze</span>
-                <span className="text-lg">→</</span>
+                <span className="text-lg">{"→"}</span>
               </a>
               <a
                 href="http://maps.apple.com/?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO"
@@ -41,7 +41,7 @@ export default function Location() {
                 className="flex items-center gap-3 px-6 py-4 border border-obsidian-silver text-obsidian-white uppercase text-xs tracking-widest hover:bg-obsidian-white hover:text-obsidian-deep transition-all duration-300 group"
               >
                 <span className="opacity-60 group-hover:opacity-100 transition-opacity">Apple Maps</span>
-                <span className="text-lg">→</</span>
+                <span className="text-lg">{"→"}</span>
               </a>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Location() {
               src="https://maps.google.com/maps?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO&t=&z=15&ie=UTF8&iwloc=&output=embed"
               className="w-full h-full grayscale invert opacity-80 group-hover:grayscale-0 group-hover:invert-0 group-hover:opacity-100 transition-all duration-500"
               style={{ border: 0 }}
-              allowFullScreen=""
+              allowFullScreen
               loading="lazy"
             ></iframe>
           </div>
