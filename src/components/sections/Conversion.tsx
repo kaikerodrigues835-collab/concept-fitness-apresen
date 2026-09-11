@@ -20,7 +20,7 @@ export default function Conversion() {
           </p>
           <a
             href="https://wa.me/5562982396113?text=Olá!%20Vim%20pelo%20site%20da%20Concept%20Fitness%20e%20gostaria%20de%20agendar%20uma%20aula%20experimental."
-            className="px-12 py-6 bg-obsidian-deep text-obsidian-white font-black uppercase tracking-widest hover:bg-obsidian-carbon transition-all duration-300 inline-block transform hover:scale-105"
+            className="px-12 py-6 bg-obsidian-deep text-obsidian-white font-black uppercase tracking-widest hover:bg-obsidian-carbon transition-all duration-300 inline-block transform hover:scale-105 rounded-full"
           >
             Agende sua Visita
           </a>

@@ -22,7 +22,7 @@ export default function Location() {
               <a
                 href="https://maps.app.goo.gl/aDxsevwjgn4xu71y7"
                 target="_blank"
-                className="flex items-center gap-3 px-6 py-4 bg-obsidian-white text-obsidian-deep uppercase text-xs tracking-widest hover:bg-obsidian-silver transition-all duration-300 group font-bold"
+                className="flex items-center gap-3 px-6 py-4 bg-obsidian-white text-obsidian-deep uppercase text-xs tracking-widest hover:bg-obsidian-silver transition-all duration-300 group font-bold rounded-full"
               >
                 <span className="opacity-100 group-hover:opacity-80 transition-opacity">Como Chegar</span>
                 <span className="text-lg">{"→"}</span>
@@ -30,7 +30,7 @@ export default function Location() {
               <a
                 href="https://waze.com/ul?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO"
                 target="_blank"
-                className="flex items-center gap-3 px-6 py-4 border border-obsidian-silver text-obsidian-white uppercase text-xs tracking-widest hover:bg-obsidian-white hover:text-obsidian-deep transition-all duration-300 group"
+                className="flex items-center gap-3 px-6 py-4 border border-obsidian-silver text-obsidian-white uppercase text-xs tracking-widest hover:bg-obsidian-white hover:text-obsidian-deep transition-all duration-300 group rounded-full"
               >
                 <span className="opacity-60 group-hover:opacity-100 transition-opacity">Waze</span>
                 <span className="text-lg">{"→"}</span>
@@ -38,7 +38,7 @@ export default function Location() {
               <a
                 href="http://maps.apple.com/?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO"
                 target="_blank"
-                className="flex items-center gap-3 px-6 py-4 border border-obsidian-silver text-obsidian-white uppercase text-xs tracking-widest hover:bg-obsidian-white hover:text-obsidian-deep transition-all duration-300 group"
+                className="flex items-center gap-3 px-6 py-4 border border-obsidian-silver text-obsidian-white uppercase text-xs tracking-widest hover:bg-obsidian-white hover:text-obsidian-deep transition-all duration-300 group rounded-full"
               >
                 <span className="opacity-60 group-hover:opacity-100 transition-opacity">Apple Maps</span>
                 <span className="text-lg">{"→"}</span>
@@ -51,7 +51,7 @@ export default function Location() {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative aspect-square grayscale"
+          className="relative aspect-square"
         >
           {/* Real Google Maps Embed */}
           <div className="absolute inset-0 border border-obsidian-silver overflow-hidden group">
@@ -62,7 +62,7 @@ export default function Location() {
             >
               <iframe
                 src="https://maps.google.com/maps?q=Rua%20Saturnino%20José%20Araújo%20250%20Botafogo%20Nerópolis%20GO&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                className="w-full h-full grayscale invert opacity-80 group-hover:grayscale-0 group-hover:invert-0 group-hover:opacity-100 transition-all duration-500"
+                className="w-full h-full opacity-80 group-hover:opacity-100 transition-all duration-500"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
@@ -70,7 +70,7 @@ export default function Location() {
             </a>
           </div>
           <div className="absolute -bottom-4 -right-4 w-48 h-48 bg-obsidian-deep border border-obsidian-silver p-2 z-10 shadow-2xl overflow-hidden">
-            <img src="/images/exterior.png" alt="Exterior Concept Fitness" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+            <img src="/images/exterior.png" alt="Exterior Concept Fitness" className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110" />
           </div>
         </motion.div>
       </div>
