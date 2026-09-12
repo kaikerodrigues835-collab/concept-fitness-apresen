@@ -7,7 +7,7 @@ export default function Footer() {
             <img
               src="/images/logo.jpg"
               alt="Concept Fitness Logo"
-              className="w-16 h-16 object-contain brightness-200"
+              className="w-16 h-16 object-contain brightness-200 rounded-full"
             />
             <span className="text-obsidian-white text-xl font-bold uppercase tracking-tighter">
               Concept <span className="text-[#C0FF00]">Fitness</span>

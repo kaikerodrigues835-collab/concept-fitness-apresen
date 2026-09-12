@@ -37,7 +37,7 @@ export default function Header() {
           <img
             src="/images/logo.jpg"
             alt="Concept Fitness Logo"
-            className="w-10 h-10 object-contain rounded-sm"
+            className="w-10 h-10 object-contain rounded-full"
           />
           <span className="text-obsidian-white font-black uppercase tracking-tighter text-xl group-hover:text-obsidian-silver transition-colors">
             Concept Fitness

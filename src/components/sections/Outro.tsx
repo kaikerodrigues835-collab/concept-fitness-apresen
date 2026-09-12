@@ -13,7 +13,7 @@ export default function Outro() {
         className="text-center z-10 flex flex-col items-center"
       >
         <div className="flex items-center gap-4 mb-8">
-          <Image src="/images/logo.jpg" alt="Logo" width={60} height={60} className="object-contain brightness-200" />
+          <Image src="/images/logo.jpg" alt="Logo" width={60} height={60} className="object-contain brightness-200 rounded-full" />
           <span className="text-obsidian-white text-2xl font-bold uppercase tracking-tighter">
             Concept <span className="text-[#C0FF00]">Fitness</span>
           </span>
