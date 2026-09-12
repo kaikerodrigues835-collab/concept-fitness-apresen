@@ -37,7 +37,7 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
-            className="text-obsidian-silver text-lg md:text-xl tracking-widest uppercase mb-10 max-w-2xl mx-auto font-light"
+            className="text-obsidian-white text-lg md:text-xl tracking-widest uppercase mb-10 max-w-2xl mx-auto font-normal"
           >
             Além do Treino. Uma Experiência de Estilo de Vida de Alta Performance.
           </motion.p>

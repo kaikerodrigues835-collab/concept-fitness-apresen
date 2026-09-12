@@ -13,7 +13,7 @@ export default function LogoScroll() {
       style={{ opacity, scale }}
       className="fixed top-6 left-6 z-50 pointer-events-none"
     >
-      <div className="w-24 h-24 relative">
+      <div className="w-24 h-24 relative rounded-full overflow-hidden">
         <Image
           src="/images/logo.jpg"
           alt="Concept Fitness Logo"
